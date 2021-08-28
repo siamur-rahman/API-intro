@@ -1,8 +1,8 @@
 // javascript object notation
 //JSON
-const user = { id: 11, name: 'Gorib Amir', job: 'actor' }
+const user = { id: 11, name: 'Gorib Amir', job: 'actor' }//user ta hocche javascript er object
 
-const stringified = JSON.stringify(user);
+const stringified = JSON.stringify(user);//USER K JSON E Stringyfied korche
 // console.log(stringified);
 // console.log(user);
 
@@ -19,8 +19,8 @@ const shop = {
 }
 const shopStringified = JSON.stringify(shop);
 // console.log(shop);
-// console.log(shopStringified);
+console.log(shopStringified);
 
 
 const converted = JSON.parse(shopStringified);
-console.log(converted);
+// console.log(converted);
